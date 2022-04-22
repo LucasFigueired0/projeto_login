@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: #333366;
+    
+}
+
+.central .login
+{
+    text-align: center;
+    margin-top: 100px;
+    color: #eee;
+    font-size: 60px;
+}
+
+.central div 
+{
+    text-align: center;
+}
+
+.central div input
+{
+    width: 450px;
+    height: 50px;
+    border-radius: 7px;
+    background-color: #333333;
+    font-size: 18px;
+}
+
+.central .button
+{
+    text-align: center;
+}
+
+.central .button input
+{
+    background-color: #66CCFF;
+    color: rgb(12, 6, 6);
+}
+
