@@ -11,26 +11,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="central">
-        <h1 class="central login">Login</h1>
-        <form action="form.php" method="POST" class="dados">
-            <div>
-                <input type="text" placeholder="Usuário">
+    <div>
+        <h1 class="login">Login</h1>
+        <form class="dados">
+            
+            <div class="idUser">
+                <input type="text" id="userName"  placeholder="Usuário">
             </div>
     
             <br>
     
-            <div> 
-                <input type="password" placeholder="Senha">
+            <div class="idUser" >  
+                <input type="password" id="userPass" placeholder="Senha">
             </div>
 
             <br>
 
-            <div class="button">
-                <input type="submit" value="Entrar">
+            <div class="idUser">
+                <input type="submit" value="Entrar" id="botao_login">
             </div>
     
         </form>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>

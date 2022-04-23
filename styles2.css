@@ -7,7 +7,7 @@ body
     background-color: #333366;
 }
 
-.central .login
+.login
 {
     text-align: center;
     margin-top: 100px;
@@ -15,12 +15,12 @@ body
     font-size: 60px;
 }
 
-.central div 
+.idUser
 {
     text-align: center;
 }
 
-.central div input
+.idUser input
 {
     width: 450px;
     height: 50px;
@@ -29,14 +29,8 @@ body
     font-size: 18px;
 }
 
-.central .button
-{
-    text-align: center;
-}
-
-.central .button input
+#botao_login
 {
     background-color: #66CCFF;
     color: rgb(12, 6, 6);
 }
-
